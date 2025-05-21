@@ -1,0 +1,4 @@
+# Ignore checkpoint folders except keep config.json and model.safetensors
+output/checkpoint-*/!config.json
+output/checkpoint-*/!model.safetensors
+output/checkpoint-*/*   # Ignore all other files inside checkpoint folders
