@@ -1,0 +1,3 @@
+[submodule "nicheformer"]
+	path = nicheformer
+	url = https://github.com/theislab/nicheformer.git
